@@ -6,14 +6,17 @@
 
 
 //:  Now assign a value to `name`, and print it to the console.
-
-
+var name: String = "Sai"
+print(name)
 //:  Declare a variable called `distanceTraveled` and set it to 0. Do not give it an explicit type.
-
-
+var distanceTraveled = 0
 //:  Now assign a value of 54.3 to `distanceTraveled`. Does the code compile? Go back and set an explicit type on `distanceTraveled` so the code will compile.
+// This does not compile because distanceTraveled was inferred as an Int.
+// distanceTraveled = 54.3
 
-
+var distanceTraveledFixed: Double = 0
+distanceTraveledFixed = 54.3
+print(distanceTraveledFixed)
 /*:
 [Previous](@previous)  |  page 9 of 10  |  [Next: App Exercise - Percent Completed](@next)
  */
