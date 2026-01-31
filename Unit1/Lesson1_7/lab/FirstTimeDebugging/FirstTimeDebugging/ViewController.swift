@@ -2,29 +2,23 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad( {
+    override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
         var sample = "sample"
         print(sample)
         
-        if false {
+        if true {
             print("Will this line of code ever be reached?")
-            someMetho()
+            someMethod()
         }
-        
-        
     }
     
     func someMethod() {
-
+        print("someMethod was called")
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
-
-
 }
-
