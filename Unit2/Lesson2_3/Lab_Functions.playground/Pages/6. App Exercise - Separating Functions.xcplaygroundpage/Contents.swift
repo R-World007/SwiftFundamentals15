@@ -30,10 +30,10 @@ func pacing(currentDistance: Double, totalDistance: Double, currentTime: Double,
 
 // Call the function and print the message
 let message1 = pacing(currentDistance: 3.0, totalDistance: 5.0, currentTime: 20.0, goalTime: 30.0)
-print(message1)  // Output: Keep it up!
+print(message1)  // Output1
 
 let message2 = pacing(currentDistance: 2.0, totalDistance: 5.0, currentTime: 20.0, goalTime: 30.0)
-print(message2)  // Output: You've got to push it just a bit harder!
+print(message2)  // Output2
 
 
 /*:
