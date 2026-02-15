@@ -8,7 +8,7 @@
 let storedUserName = "TheFittest11"
 let storedPassword = "a8H1LuK91"
 let enteredUserName = "thefittest11"
-let enteredPassword: String = "a8H1Luk9"
+let enteredPassword: String = "a8H1Luk9" // incrorrect password
 
 
 /*:
@@ -16,10 +16,19 @@ let enteredPassword: String = "a8H1Luk9"
 
  Using `userName` and `searchName` below, write an if-else statement that checks to see if `userName` contains the search term. The search should *not* be case sensitive.
  */
+ if enteredUserName.lowercased() == storedUserName.lowercased() && enteredPassword == storedPassword {
+    print("You are now logged in!")
+} else {
+    print("Please check your user name and password and try again.")
+}
 import Foundation
 let userName = "StepChallenger"
 let searchName = "step"
-
+if userName.lowercased().contains(searchName.lowercased()) {
+    print("Found a match!")
+} else {
+    print("No match found.")
+}
 
 /*:
  _Copyright © 2023 Apple Inc._
